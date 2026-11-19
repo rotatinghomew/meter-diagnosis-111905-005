@@ -1,0 +1,4 @@
+id,interventions,boundary,reference_from,reference_until,after_from,after_until,claimed_wh,evidence,signed
+SV1,IE1|IE2,MS,674,676,684,686,36,SR2|SR4,685
+SV2,IE1,MA,674,676,684,686,25,SR1|SR3,685
+SV3,IE3,MA,678,680,696,698,19,,
