@@ -1,4 +1,4 @@
-room,neighbor,door,open_windows,required_type
-R1,R2,D1,W1|W2,quiet
-R2,R1,D1,W1,quiet
-R3,,D2,W1|W2,large
+id,size,neighbors,door,point,shared_point,staff_skill
+A,large,B,D1,A_IN,HALL,monitor
+B,small,A,D1,B_IN,HALL,monitor
+C,large,,D2,EAST,EAST,monitor

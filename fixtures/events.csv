@@ -1,0 +1,9 @@
+id,day,kind,target,from,to,candidate,received,supersedes
+H1,2,feedback,HALL,10:50,11:15,K2-1;K2-2,2T17:00,
+H2,2,door_open,D1,11:00,11:12,K2-2,2T15:40,
+H3,2,power_on,vent,10:55,11:08,K2-1;K2-2,2T15:40,
+H4,2,activity_end,A,10:56,11:14,K2-1;K2-2,2T16:00,
+H5,2,activity_start,B,11:05,11:12,K2-2,2T16:00,
+H6,2,activity_end,A,11:03,11:03,K2-2,11T09:05,H4
+H7,2,power_on,vent,11:08,11:08,K2-2,11T09:06,H3
+H8,11,door_open,D1,10:05,10:05,,11T10:09,

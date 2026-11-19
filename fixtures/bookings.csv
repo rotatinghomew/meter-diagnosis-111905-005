@@ -1,4 +1,11 @@
-id,room,group,window,confirmed,type,staff
-B1,R1,G1,W1,yes,quiet,U1
-B2,R2,G2,W1,yes,quiet,U1
-B3,R3,G3,W2,yes,large,U2
+id,room,day,start,end,group,type,kind,prior
+B1,A,11,10:00,11:00,排练组,large,signed,
+B2,B,11,10:00,10:30,阅读组,small,signed,
+B3,C,11,10:00,10:30,讲解组,large,signed,
+B4,A,11,10:00,10:25,排练组,large,performed,B1
+B5,C,11,10:30,11:00,排练组,large,offered,B1
+B6,B,11,10:45,11:15,手工组,small,requested,
+B7,A,12,11:00,12:00,排练组,large,requested,
+B8,B,12,11:30,12:00,阅读组,small,requested,
+B9,C,12,11:30,12:00,讲解组,large,requested,
+B10,C,11,10:30,11:00,排练组,large,declined,B5

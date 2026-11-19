@@ -1,0 +1,3 @@
+id,points,cutoff,increase_cap,min_paired_days
+P1,HALL;EAST,50,0.12,3
+P2,A_IN;B_IN,54,0.2,3
