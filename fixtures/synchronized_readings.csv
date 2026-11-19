@@ -1,0 +1,6 @@
+id,session,part,kit,meter,from_hour,until_hour,wh,verified,received
+SR1,S1,base,K1,MA,674,676,18,yes,676
+SR2,S1,base,K3,MN,674,676,125,yes,676
+SR3,S1,test,K1,MA,676,678,56,yes,678
+SR4,S1,test,K3,MS,676,678,100,yes,678
+SR5,S1,test,K4,MC,676,678,40,yes,679

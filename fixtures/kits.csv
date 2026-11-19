@@ -1,3 +1,5 @@
 id,available_from,available_to,kind
 K1,670,698,load_and_trace
 K2,671,688,trace
+K3,670,698,load_and_trace
+K4,670,698,load_and_trace

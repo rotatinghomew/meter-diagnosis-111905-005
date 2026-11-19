@@ -1,0 +1,10 @@
+session,comparison,part,kit,meter,from_hour,until_hour,status
+S1,V1,base,K1,MA,674,676,observed
+S1,V1,base,K3,MN,674,676,observed
+S1,V1,base,K4,MC,674,676,missing
+S1,V1,test,K1,MA,676,678,observed
+S1,V1,test,K3,MS,676,678,observed
+S1,V1,test,K4,MC,676,678,observed
+S2,V2,test,K2,MB,680,682,reserved
+S2,V2,test,K3,MN,680,682,reserved
+S2,V2,test,K4,MC,680,682,reserved
