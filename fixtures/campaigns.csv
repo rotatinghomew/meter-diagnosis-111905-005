@@ -1,0 +1,5 @@
+id,kit,target,from_hour,until_hour,status,aim
+C1,K1,MA,674,678,already_started,room_load
+C2,K1,MB,676,680,planned,room_load
+C3,K2,MA,680,684,planned,trace
+C4,K1,MC,690,696,planned,common_load

@@ -1,0 +1,3 @@
+id,as_at,target,kind,status
+D1,670,RoomA,load_issue,issued
+D2,671,MB,check_meter,planned
