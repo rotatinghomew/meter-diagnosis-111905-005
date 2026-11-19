@@ -1,4 +1,4 @@
-id,campaign,point,from_hour,until_hour,wh,connection_verified,recorded
-O1,C1,MA,674,675,9,no,675
-O2,C1,MA,675,676,9,yes,688
-O3,C1,MS,676,677,48,yes,689
+id,point,window,activity,door_state,level,observed_at,uncertainty_min
+O1,H1,W1,R1,open,7,08:00,15
+O2,H1,W1,R2,open,8,08:10,15
+O3,H1,W2,,closed,2,09:00,0

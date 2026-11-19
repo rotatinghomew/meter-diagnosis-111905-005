@@ -1,7 +1,0 @@
-id,meter,parent,served,from_hour,until_hour,recorded,replaces
-T1,MA,MN,RoomA,0,652,0,
-T2,MA,MS,RoomA,652,900,658,
-T3,MB,MN,RoomB,0,900,0,
-T4,MC,MN,Common,0,900,0,
-T5,MA,MN,RoomA,0,644,685,T1
-T6,MA,MS,RoomA,644,900,685,T2

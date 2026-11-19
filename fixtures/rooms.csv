@@ -1,0 +1,4 @@
+room,neighbor,door,open_windows,required_type
+R1,R2,D1,W1|W2,quiet
+R2,R1,D1,W1,quiet
+R3,,D2,W1|W2,large

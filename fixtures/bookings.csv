@@ -1,0 +1,4 @@
+id,room,group,window,confirmed,type,staff
+B1,R1,G1,W1,yes,quiet,U1
+B2,R2,G2,W1,yes,quiet,U1
+B3,R3,G3,W2,yes,large,U2

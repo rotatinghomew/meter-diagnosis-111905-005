@@ -1,4 +1,0 @@
-id,target,base_from,base_until,test_from,test_until,expected_base,expected_test
-V1,MA,674,676,676,678,闭馆,单室活动
-V2,MB,678,680,680,682,单室活动,同开
-V3,MC,690,692,692,694,闭馆,同开
