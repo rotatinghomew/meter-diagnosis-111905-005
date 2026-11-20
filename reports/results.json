@@ -1,0 +1,506 @@
+{
+  "licenses": [
+    {
+      "condition": {
+        "combo": "A",
+        "door": "open",
+        "equipment_on": false
+      },
+      "metric_status": "confirmed",
+      "paired_days": 7,
+      "door_enforceable": null,
+      "final_status": "confirmed",
+      "reasons": []
+    },
+    {
+      "condition": {
+        "combo": "A",
+        "door": "open",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "A",
+        "door": "closed",
+        "equipment_on": false
+      },
+      "metric_status": "confirmed",
+      "paired_days": 7,
+      "door_enforceable": false,
+      "final_status": "confirmed",
+      "reasons": [
+        "闭门许可受借道通行限制（第11日 10:20-10:45），这些窗口只能按开放方案排"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "A",
+        "door": "closed",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "B",
+        "door": "open",
+        "equipment_on": false
+      },
+      "metric_status": "confirmed",
+      "paired_days": 7,
+      "door_enforceable": null,
+      "final_status": "confirmed",
+      "reasons": []
+    },
+    {
+      "condition": {
+        "combo": "B",
+        "door": "open",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "B",
+        "door": "closed",
+        "equipment_on": false
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "没有任何 block 与该条件相容（零覆盖）",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "B",
+        "door": "closed",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "AB",
+        "door": "open",
+        "equipment_on": false
+      },
+      "metric_status": "denied",
+      "paired_days": 8,
+      "door_enforceable": null,
+      "final_status": "denied",
+      "reasons": [
+        "超线增量在 P1, P2 组超过 increase_cap"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "AB",
+        "door": "open",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "点位覆盖不完整的 block：K2-2",
+        "可配对试验日为 0"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "AB",
+        "door": "closed",
+        "equipment_on": false
+      },
+      "metric_status": "confirmed",
+      "paired_days": 7,
+      "door_enforceable": false,
+      "final_status": "confirmed",
+      "reasons": [
+        "点位覆盖不完整的 block：K6-4",
+        "结论仅覆盖有基线且覆盖完整的试验日，其余时段保持未知",
+        "闭门许可受借道通行限制（第11日 10:20-10:45），这些窗口只能按开放方案排"
+      ]
+    },
+    {
+      "condition": {
+        "combo": "AB",
+        "door": "closed",
+        "equipment_on": true
+      },
+      "metric_status": "unknown",
+      "paired_days": 0,
+      "door_enforceable": null,
+      "final_status": "unknown",
+      "reasons": [
+        "存在试验日缺少同日、同设备状态的无活动基线（设备开启日只能用同设备基线，不能用白天设备关闭的观测替代）",
+        "点位覆盖不完整的 block：K2-2",
+        "可配对试验日为 0"
+      ]
+    }
+  ],
+  "day2_attribution": {
+    "block": "K2-2",
+    "event_windows": [
+      {
+        "label": "D1 开门转态窗口（H2）",
+        "earliest": 660,
+        "latest": 672,
+        "detail": "窗口内开门/关门两种解释都成立；窗口外门确定为关"
+      },
+      {
+        "label": "通风设备开启时点（H7 替代 H3）",
+        "earliest": 668,
+        "latest": 668,
+        "detail": "H7 把窗口缩为 11:08 单点，11:08 起设备确定开启"
+      },
+      {
+        "label": "A 活动结束时点（H6 替代 H4）",
+        "earliest": 663,
+        "latest": 663,
+        "detail": "11:03 单点确定，A 早于排期 11:30 结束"
+      },
+      {
+        "label": "B 活动启动窗口（H5）",
+        "earliest": 665,
+        "latest": 672,
+        "detail": "窗口内 B 未启/已启两种解释都成立；11:12 后 B 确定在进行"
+      }
+    ],
+    "determined_runs": [
+      {
+        "label": "D1 确定开放",
+        "runs": [
+          [
+            672,
+            690
+          ]
+        ],
+        "note": "开门不确定窗口 11:12 结束之后"
+      },
+      {
+        "label": "通风设备确定运行",
+        "runs": [
+          [
+            668,
+            690
+          ]
+        ],
+        "note": "H7 即时转态 11:08 起"
+      },
+      {
+        "label": "A 活动确定进行",
+        "runs": [
+          [
+            660,
+            663
+          ]
+        ],
+        "note": "H6 即时结束 11:03 之前"
+      },
+      {
+        "label": "B 活动确定进行",
+        "runs": [
+          [
+            672,
+            690
+          ]
+        ],
+        "note": "B 启动不确定窗口 11:12 结束之后"
+      }
+    ],
+    "over_minutes": {
+      "A_IN": [
+        30,
+        30
+      ],
+      "B_IN": [
+        30,
+        30
+      ],
+      "HALL": [
+        25,
+        30
+      ],
+      "EAST": [
+        30,
+        30
+      ]
+    },
+    "attributable_ranges": {
+      "A 活动": {
+        "A_IN": [
+          0,
+          5
+        ],
+        "B_IN": [
+          0,
+          5
+        ],
+        "HALL": [
+          0,
+          5
+        ]
+      },
+      "B 活动": {
+        "A_IN": [
+          30,
+          30
+        ],
+        "B_IN": [
+          30,
+          30
+        ],
+        "HALL": [
+          25,
+          25
+        ]
+      },
+      "通风设备": {
+        "A_IN": [
+          30,
+          30
+        ],
+        "B_IN": [
+          30,
+          30
+        ],
+        "HALL": [
+          25,
+          25
+        ]
+      }
+    },
+    "exclusive_minutes": {
+      "A 活动": 0,
+      "B 活动": 0,
+      "通风设备": 0
+    },
+    "conclusions": [
+      "排期名义的 A+B 同时活动在 K2-2 从未发生：A 于 11:03 确定结束，B 最早 11:05 才开始",
+      "K2-2 不能再作为 A+B 闭门（设备开）证据；门在 11:00-11:12 窗口内可能开着",
+      "11:08 后设备与 B 同开，资料无法区分单源与叠加，该段不得用于给 B 单间出结论",
+      "已执行的 30 分钟观测与超线读数保留，只能更正归因，不能重记为未发生",
+      "居民反馈 H1 覆盖 10:50-11:15，横跨 K2-1 与 K2-2，两种来源解释共同成立"
+    ]
+  },
+  "counterfactual": [
+    {
+      "case": "K2-2（名义 closed/eq1，事实 11:00-11:12 可能开门、设备 11:08 起开）",
+      "error": "把关门标签当成零超线",
+      "actual": "A_IN/B_IN/EAST 各 30/30 超线，HALL 25/30（MC 替代后）",
+      "wrong_effect": "会虚构 A+B 闭门+设备开的合格样本，错误放行设备开启时的 A+B 闭门预约"
+    },
+    {
+      "case": "K6-4（A+B 闭门，EAST 点位零覆盖）",
+      "error": "把未提供观测的 EAST 当成零超线",
+      "actual": "EAST 覆盖 0 分钟，指标无定义；该日不能计入 P1 配对日",
+      "wrong_effect": "会把覆盖缺口伪装成合格日，提前确认 A+B 闭门许可并掩盖试验缺口"
+    },
+    {
+      "case": "设备开启 block 群（K2-2,K2-3,K5-2,K5-3）",
+      "error": "用白天设备关闭的零超线基线代替晚间/同设备基线",
+      "actual": "无任何 (eq=1, 无活动) 基线，增量无法估计，4 个 eq1 条件全部未知",
+      "wrong_effect": "会把设备背景造成的超线错误记到活动/门状态头上，错误拒绝或确认单间条件"
+    },
+    {
+      "case": "B 单间闭门（全部 8 个试验日零覆盖）",
+      "error": "把没有闭门 B 试验当成闭门零超线",
+      "actual": "没有任何 block 与 B+closed 相容，状态为未知",
+      "wrong_effect": "会凭空确认 B 闭门许可，排期时给阅读/手工组安排无法兑现的闭门时段"
+    }
+  ],
+  "bookings": [
+    {
+      "booking": {
+        "id": "B1",
+        "room": "A",
+        "day": 11,
+        "start": 600,
+        "end": 660,
+        "group": "排练组",
+        "size_need": "large",
+        "kind": "signed",
+        "prior": ""
+      },
+      "decision": "existing_signed",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B2",
+        "room": "B",
+        "day": 11,
+        "start": 600,
+        "end": 630,
+        "group": "阅读组",
+        "size_need": "small",
+        "kind": "signed",
+        "prior": ""
+      },
+      "decision": "existing_signed",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B3",
+        "room": "C",
+        "day": 11,
+        "start": 600,
+        "end": 630,
+        "group": "讲解组",
+        "size_need": "large",
+        "kind": "signed",
+        "prior": ""
+      },
+      "decision": "existing_signed",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B4",
+        "room": "A",
+        "day": 11,
+        "start": 600,
+        "end": 625,
+        "group": "排练组",
+        "size_need": "large",
+        "kind": "performed",
+        "prior": "B1"
+      },
+      "decision": "performed_attribution_only",
+      "notes": [
+        "已执行：只能更正归因，不能重记为未发生"
+      ]
+    },
+    {
+      "booking": {
+        "id": "B5",
+        "room": "C",
+        "day": 11,
+        "start": 630,
+        "end": 660,
+        "group": "排练组",
+        "size_need": "large",
+        "kind": "offered",
+        "prior": "B1"
+      },
+      "decision": "offer_under_review",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B6",
+        "room": "B",
+        "day": 11,
+        "start": 645,
+        "end": 675,
+        "group": "手工组",
+        "size_need": "small",
+        "kind": "requested",
+        "prior": ""
+      },
+      "decision": "request_under_review",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B7",
+        "room": "A",
+        "day": 12,
+        "start": 660,
+        "end": 720,
+        "group": "排练组",
+        "size_need": "large",
+        "kind": "requested",
+        "prior": ""
+      },
+      "decision": "request_under_review",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B8",
+        "room": "B",
+        "day": 12,
+        "start": 690,
+        "end": 720,
+        "group": "阅读组",
+        "size_need": "small",
+        "kind": "requested",
+        "prior": ""
+      },
+      "decision": "request_under_review",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B9",
+        "room": "C",
+        "day": 12,
+        "start": 690,
+        "end": 720,
+        "group": "讲解组",
+        "size_need": "large",
+        "kind": "requested",
+        "prior": ""
+      },
+      "decision": "request_under_review",
+      "notes": []
+    },
+    {
+      "booking": {
+        "id": "B10",
+        "room": "C",
+        "day": 11,
+        "start": 630,
+        "end": 660,
+        "group": "排练组",
+        "size_need": "large",
+        "kind": "declined",
+        "prior": "B5"
+      },
+      "decision": "rejected",
+      "notes": [
+        "拒绝的是 B5 的换房提议，原预约继续有效"
+      ]
+    }
+  ]
+}
